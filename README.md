@@ -9,7 +9,7 @@ dailyBasicNetStatsRecorderは、Gethとの通信には[web3js](https://github.co
 [blockDataRecorder](https://github.com/ethereumNetStats/blockDataRecorder)のDockerのインストール〜ソースコードの実行までを完了して
 Gethの運用とMySQLのDBテーブル`blockData`の生成までを完了して下さい。  
 また、ethereumNetStatsのバックエンドは[socketServer](https://github.com/ethereumNetStats/socketServer)を介してそれぞれのプログラムがデータをやりとりします。したがってsocketServerを稼働させて下さい。  
-プログラムの内容のみを知りたい場合はソースコードを参照ください。
+プログラムの内容のみを知りたい場合はソースコードを参照ください。  
 **なお、dailyBasicNetStatsRecorderは、[minutelyBasicNetStatsRecorder](https://github.com/ethereumNetStats/minutelyBasicNetStatsRecorder)の集計期間を示す定数`DURATION`を変更しただけのものです。**  
 
 ### ソースコード
