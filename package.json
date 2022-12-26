@@ -10,13 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ethereum_net_stats/get_geth_connections": "^1.0.3",
     "@ethereum_net_stats/get_mysql_connection": "^1.0.8",
     "@ethereum_net_stats/readable_time": "^1.0.7",
-    "@ethereum_net_stats/get_geth_connections": "^1.0.3",
     "mysql2": "^2.3.3",
-    "web3": "^1.8.0",
-    "socket.io": "^4.5.3",
-    "socket.io-client": "^4.5.3"
+    "socket.io-client": "^4.5.3",
+    "web3": "^1.8.0"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
